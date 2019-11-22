@@ -78,18 +78,18 @@ body {
   
   .item{
     width:350px;
-    min-height: 55px ;
+    min-height: 50px;
     position: relative;
     list-style: none;
     padding: 0;
-    word-break: break-all;
+    word-wrap: break-word;
   }
   
 .item i.co{
     position: absolute;
     font-size: 25px;
     left:5px;
-    top:5px;
+    top:8px;
   }
 
 .item i.co:hover{
@@ -109,7 +109,7 @@ body {
   font-size: 20px;
   left:50px;
   top:5px;
-  max-width:200px;
+  max-width: 250px;
   }
 
 .lineThrough{
@@ -121,7 +121,7 @@ body {
     position: absolute;
     font-size: 25px;
     right:10px;
-    top:5px;
+    top:9px;
   }
 
 .item i.de:hover{
